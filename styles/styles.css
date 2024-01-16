@@ -3,7 +3,16 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
-
+.travel-color{
+    color: #FF5400;
+}
+.white-text{
+    color: #FFF;
+font-family: Mulish;
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+}
 
 nav{
     display: flex;
@@ -41,7 +50,24 @@ nav li{
 header{
     padding: 50px 150px
 }
-.travel-color{
-    color: #FF5400;
+/* Banner styles */
+.banner .banner-content{
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+    width: 100%;
+    
+}
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+}
+.banner img{
+    width: 100%;
+}
+.banner{
 
 }
