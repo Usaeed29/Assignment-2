@@ -146,7 +146,10 @@ padding-left: 50px;
     align-items: center;
     margin-top: 200px;
     justify-content: space-evenly;
-    gap:20px
+    gap:20px;
+    width: 100%;
+    
+    
 }
  .popular-tools-texts{
     width: 600px;
@@ -256,6 +259,7 @@ position: absolute;
 }
 .first-tour, .second-tour, .third-tour{
     position: relative;
+    width: 100%;
 }
 .second-tour .discount-box{
     left: 40%;
@@ -370,16 +374,18 @@ margin-top: 60px;
         display: flex;
         flex-direction: column;
     }
+    
     nav ul{
         display: none;
     }
-    .banner{
+    .banner, .video-section{
         padding-left: 50px;
     }
    
     .banner img{
         border-radius: 16px;
         height: 483px;
+        width: 120%;
     }
     .banner-content .banner-button{
         display: flex;
@@ -397,4 +403,36 @@ margin-top: 60px;
         width: 600px;
         padding-left: 10px;
     }
-}
+    body{
+        margin-left: 100px;
+    }
+    .discount-box{
+        width: 80%;
+    }
+    .video-section{
+        flex-direction: column;
+        
+    }
+    .video-section .destination-text-position img{
+        width: 576px;
+    }
+    .newsletter{
+        flex-direction: column;
+        padding-left: 150px;
+    }
+    .hotel-service{
+        flex-direction: column;
+        padding: 10px;
+    }   
+    footer{
+        width: 600px;
+        padding-left: 0px;
+    }
+    
+    
+
+
+
+
+
+}   
